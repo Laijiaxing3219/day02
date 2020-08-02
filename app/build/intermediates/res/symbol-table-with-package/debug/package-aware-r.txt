@@ -1,4 +1,4 @@
-com.example.day02dangridaima
+com.example.day02zuoye
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -792,6 +792,7 @@ color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -812,7 +813,6 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color text
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -1025,6 +1025,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1142,12 +1146,6 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable iv_comrade_noselect
-drawable iv_comrade_select
-drawable iv_home_noselect
-drawable iv_home_select
-drawable iv_interact_noselect
-drawable iv_interact_select
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1164,9 +1162,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable se_collection
-drawable se_main
-drawable se_me
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable white_radius
@@ -1214,6 +1209,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1248,6 +1244,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id cancel_action
 id center
 id center_crop
 id center_horizontal
@@ -1269,6 +1266,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id delete
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1280,6 +1278,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -1295,6 +1294,7 @@ id fit_start
 id fit_xy
 id fixed
 id forever
+id fragment
 id ghost_view
 id glide_custom_view_target_tag
 id gone
@@ -1321,6 +1321,7 @@ id listMode
 id list_item
 id masked
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -1349,10 +1350,10 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rec
 id right
 id right_icon
 id right_side
-id rlv
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1390,13 +1391,13 @@ id spread_inside
 id src_atop
 id src_in
 id src_over
-id srl
 id standard
 id start
+id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
-id tabLayout
+id tab
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1420,7 +1421,6 @@ id title
 id titleDividerNoCustom
 id titleView
 id title_template
-id toolBar
 id top
 id topPanel
 id touch_outside
@@ -1429,7 +1429,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id tv
 id unchecked
 id uniform
 id unlabeled
@@ -1437,7 +1436,6 @@ id up
 id useLogo
 id view_offset_helper
 id visible
-id vp
 id withText
 id wrap
 id wrap_content
@@ -1496,6 +1494,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main2
 layout banner
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1512,18 +1511,27 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_collection
-layout fragment_main_page
-layout fragment_me
-layout item_main
+layout fragment_shou_cang
+layout fragment_shou_ye
+layout fuli_item
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout popo
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1571,6 +1579,7 @@ string fgh_text_game_over
 string fgh_text_loading
 string fgh_text_loading_failed
 string fgh_text_loading_finish
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
@@ -1860,9 +1869,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow

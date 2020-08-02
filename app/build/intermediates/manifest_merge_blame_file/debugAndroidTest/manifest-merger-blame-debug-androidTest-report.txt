@@ -1,37 +1,37 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.day02dangridaima.test" >
+3    package="com.example.day02zuoye.test" >
 4
 5    <uses-sdk
-5-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:5:5-74
+5-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:5:5-74
 6        android:minSdkVersion="19"
-6-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:5:15-41
+6-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:5:42-71
+7-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:5:42-71
 8
 9    <instrumentation
-9-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:11:5-15:78
+9-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:11:5-15:72
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:11:22-76
+10-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:11:22-76
 11        android:functionalTest="false"
-11-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:14:22-52
+11-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:14:22-52
 12        android:handleProfiling="false"
-12-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:13:22-53
-13        android:label="Tests for com.example.day02dangridaima"
-13-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:15:22-76
-14        android:targetPackage="com.example.day02dangridaima" />
-14-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:12:22-74
+12-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:13:22-53
+13        android:label="Tests for com.example.day02zuoye"
+13-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:15:22-70
+14        android:targetPackage="com.example.day02zuoye" />
+14-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:12:22-68
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.2.0] C:\Users\机械革命\.gradle\caches\transforms-2\files-2.1\8b905dc169db8069fa57dc4a2866d2d4\core-1.2.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.2.0] C:\Users\机械革命\.gradle\caches\transforms-2\files-2.1\8b905dc169db8069fa57dc4a2866d2d4\core-1.2.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:7:5-9:19
-18-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:7:18-43
+18-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:7:5-9:19
+18-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:8:9-60
-19-->E:\Day02dangridaima\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7303954636601095510.xml:8:23-57
+19-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:8:9-60
+19-->E:\Day02zuoye\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2972438341060876652.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.2.0] C:\Users\机械革命\.gradle\caches\transforms-2\files-2.1\8b905dc169db8069fa57dc4a2866d2d4\core-1.2.0\AndroidManifest.xml:27:9-33:20

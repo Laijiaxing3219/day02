@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Day02dangridaima\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "E:\\Day02zuoye\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\机械革命\\.gradle\\caches\\transforms-2\\files-2.1\\2d3a7aed0a24e43f4693ed161e7fa897\\jetified-SmartRefreshHeader-1.1.0-alpha-14\\res\\values-zh\\values-zh.xml",
