@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Day02dangridaima\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\机械革命\\.gradle\\caches\\transforms-2\\files-2.1\\2d3a7aed0a24e43f4693ed161e7fa897\\jetified-SmartRefreshHeader-1.1.0-alpha-14\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,162,219,271,324,381",
+                        "endColumns": "52,53,56,51,52,56,56",
+                        "endOffsets": "103,157,214,266,319,376,433"
+                    }
+                }
+            ]
+        }
+    ]
+}
